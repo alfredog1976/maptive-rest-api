@@ -1,0 +1,27 @@
+{
+  "name": "alfredog1976/maptive-rest-api",
+  "license": "MIT",
+  "keywords": [
+    "alfredog1976",
+    "php maptive",
+    "php maptive rest",
+    "php maptive rest api",
+    "php"
+  ],
+  "authors": [
+    {
+      "name": "Alfred Garcia",
+      "email": "alfredog1976@yahoo.com",
+      "homepage": "https://github.com/alfredog1976"
+    }
+  ],
+  "require": {
+    "guzzlehttp/guzzle": "^6.2",
+    "php": ">=5.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "alfredog1976\\Maptive\\": "src/"
+    }
+  }
+}
